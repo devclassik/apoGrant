@@ -9,7 +9,7 @@ export const saveUserInfo = async (userData) => {
     }
 }
 
-export const getAllUserInfo = async () => {
+export const getAllUsersData = async () => {
     try {
         return await user.find();
     } catch (error) {
