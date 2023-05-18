@@ -1,4 +1,4 @@
-import { deleteUserInfoById, getAllUsersData, getOneUserDataByUserId, saveUserInfo, updateUserDataByUserId } from "../models/query/user.query";
+import { deleteUserInfoById, getAllUsersData, getOneUserDataByUserId, saveUserInfo, updateUserDataByUserId } from "../models/query/user.query.js";
 
 const createUserData = async (req, res) => {
   const data = req.body;
